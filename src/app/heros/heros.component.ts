@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Hero } from '../hero';
+import {HEROES} from '../mock-heroes';
 
 @Component({
   standalone:true,
@@ -12,11 +13,15 @@ import { Hero } from '../hero';
 })
 export class HerosComponent implements OnInit {
   // hero = 'Paras Deshmane';
-    hero :Hero ={
-  id:1,
-    name:"Paras Deshmane"
+  //   hero :Hero ={
+  // id:1,
+  //   name:"Paras Deshmane"
 
-  };
+  // };
+  heroes=HEROES;
+  
+
+
 
   constructor() { }
 
