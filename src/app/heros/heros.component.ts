@@ -22,10 +22,15 @@ export class HerosComponent implements OnInit {
 
   @Input() hero!: Hero;
   
-  even: boolean=false;
+  // even: boolean=false;
+  heroes=HEROES;
+  selectedHero?:Hero;
   constructor() { }
-  geteven(){
-    return (this.hero.id%2!=0)
+  // geteven(){
+  //   return (this.hero.id%2!=0)
+  // }
+  onselect(hero:Hero){
+    this.selectedHero = hero;
   }
 
   ngOnInit() {

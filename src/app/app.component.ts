@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   // age:number=23;
   // photo:string="https://www.thedrive.com/content/2018/09/img_0199.jpg?quality=85&crop=16%3A9&auto=webp&optimize=high&quality=70&width=1440"
   title = 'Tour of Heroes';
-  heroes=HEROES;
+  // heroes=HEROES;
   
   
 
