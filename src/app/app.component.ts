@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HerosComponent } from './heros/heros.component';
 import { HEROES } from './mock-heroes';
 
@@ -9,7 +10,7 @@ import { HEROES } from './mock-heroes';
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HerosComponent,CommonModule]
+  imports:[HerosComponent,CommonModule,HeroDetailComponent],
 })
 export class AppComponent implements OnInit {
   // username:string="hiii";
