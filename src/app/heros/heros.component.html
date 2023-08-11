@@ -6,10 +6,11 @@
   <input id="name" [(ngModel)]="hero.name" placeholder="name">
 </div> -->
   <ul class="heroes">
-    <li>
+    <li   *ngIf="geteven()"
+    >
     <button type="button">
-      <span class="badge">{{hero.id}}</span>
-      <span class="name">{{hero.name}}</span>
+      <span class="badge">{{ hero.id }}</span>
+      <span class="name">{{ hero.name }}</span>
     </button>
   </li>
   </ul>
