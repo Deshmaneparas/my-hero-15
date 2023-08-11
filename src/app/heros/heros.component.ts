@@ -13,13 +13,13 @@ import {HEROES} from '../mock-heroes';
 })
 export class HerosComponent implements OnInit {
   // hero = 'Paras Deshmane';
-  //   hero :Hero ={
-  // id:1,
-  //   name:"Paras Deshmane"
+    hero :Hero ={
+  id:1,
+    name:" .Paras Deshmane"
 
-  // };
-  heroes=HEROES;
-  
+  };
+  // heroes=HEROES;
+
 
 
 
