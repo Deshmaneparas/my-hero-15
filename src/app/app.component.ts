@@ -7,7 +7,7 @@ import { HerosComponent } from './heros/heros.component';
   selector: 'app-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  imports:[HerosComponent]
+  imports:[HerosComponent,]
 })
 export class AppComponent implements OnInit {
   // username:string="hiii";
